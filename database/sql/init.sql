@@ -1,0 +1,20 @@
+CREATE TABLE ClientData (
+    Year INT,
+    Active CHAR(1),
+    ClientID BIGINT,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Gender VARCHAR(10),
+    DateOfBirth DATE,
+    City VARCHAR(50),
+    Indigenous CHAR(1),
+    PWD CHAR(1),
+    Vet CHAR(1),
+    EmergencySheltered CHAR(1),
+    BusPass CHAR(1),
+    ClothingSupplement CHAR(1),
+    PetDeposit CHAR(1),
+    PSSG CHAR(1),
+    Status VARCHAR(50),
+    Deceased DATE
+);
